@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batja's Family Tree</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #f7f3d0, #d0f7e0);
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #d0f7e0;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            color: #2e8b57;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .family-tree {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .family-member {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 15px;
+            text-align: center;
+            width: calc(25% - 40px);
+            box-sizing: border-box;
+        }
+        .family-member img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+        .family-member h2 {
+            margin: 10px 0;
+            color: #2e8b57;
+        }
+        .family-member p {
+            margin: 5px 0;
+        }
+        footer {
+            background-color: #d0f7e0;
+            padding: 10px;
+            text-align: center;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Batja's Family Tree</h1>
+    </header>
+
+    <div class="container">
+        <section class="family-tree">
+            <!-- Family Member 1 -->
+            <div class="family-member">
+                <img src="path-to-image1.jpg" alt="Family Member 1">
+                <h2>John Doe</h2>
+                <p>Age: 45</p>
+                <p>Birthday: January 1, 1979</p>
+            </div>
+
+            <!-- Family Member 2 -->
+            <div class="family-member">
+                <img src="path-to-image2.jpg" alt="Family Member 2">
+                <h2>Jane Doe</h2>
+                <p>Age: 42</p>
+                <p>Birthday: February 14, 1982</p>
+            </div>
+
+            <!-- Add more family members here -->
+            <!-- Family Member 3 -->
+            <div class="family-member">
+                <img src="path-to-image3.jpg" alt="Family Member 3">
+                <h2>Michael Doe</h2>
+                <p>Age: 30</p>
+                <p>Birthday: March 15, 1994</p>
+            </div>
+
+            <!-- Family Member 4 -->
+            <div class="family-member">
+                <img src="path-to-image4.jpg" alt="Family Member 4">
+                <h2>Emily Doe</h2>
+                <p>Age: 28</p>
+                <p>Birthday: April 22, 1996</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Batja. All rights reserved.</p>
+    </footer>
+</body>
+</html>
